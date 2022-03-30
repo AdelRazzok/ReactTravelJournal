@@ -4,8 +4,33 @@
 	box-sizing: border-box;
 	font-family: 'Inter', sans-serif;
 }
-body {
-	background: #f6f6f6;
-}
+body {background: #f6f6f6}
 
 /* ===== APP ===== */
+.App {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 550px;
+	height: 704px;
+	background: #fff;
+}
+
+/* ===== HEADER ===== */
+.Header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 7px;
+	height: 55px;
+	margin-bottom: 100px;
+	background: #F55A5A;
+}
+.Header-title {
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+}
+
+/* ===== CARD ===== */
